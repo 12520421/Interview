@@ -54,7 +54,7 @@
             app:rippleColor="#226FE2B3" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <com.example.demointerview.widget.cardstackview.CardStackView
+    <com.example.demointerview.widgets.cardstackview.CardStackView
         android:id="@+id/card_stack_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"

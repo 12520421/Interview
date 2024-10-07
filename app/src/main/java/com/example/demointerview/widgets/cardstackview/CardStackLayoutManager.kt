@@ -1,4 +1,4 @@
-package com.example.demointerview.widget.cardstackview
+package com.example.demointerview.widgets.cardstackview
 
 import android.content.Context
 import android.graphics.PointF
@@ -11,10 +11,10 @@ import androidx.annotation.IntRange
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.SmoothScroller.ScrollVectorProvider
 import com.example.demointerview.R
-import com.example.demointerview.widget.cardstackview.internal.CardStackSetting
-import com.example.demointerview.widget.cardstackview.internal.CardStackSmoothScroller
-import com.example.demointerview.widget.cardstackview.internal.CardStackState
-import com.example.demointerview.widget.cardstackview.internal.DisplayUtil
+import com.example.demointerview.widgets.cardstackview.internal.CardStackSetting
+import com.example.demointerview.widgets.cardstackview.internal.CardStackSmoothScroller
+import com.example.demointerview.widgets.cardstackview.internal.CardStackState
+import com.example.demointerview.widgets.cardstackview.internal.DisplayUtil
 
 class CardStackLayoutManager
 @JvmOverloads constructor(

@@ -1,8 +1,8 @@
-package com.example.demointerview.widget.cardstackview.internal
+package com.example.demointerview.widgets.cardstackview.internal
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.AdapterDataObserver
-import com.example.demointerview.widget.cardstackview.CardStackLayoutManager
+import com.example.demointerview.widgets.cardstackview.CardStackLayoutManager
 import kotlin.math.min
 
 class CardStackDataObserver(private val recyclerView: RecyclerView) : AdapterDataObserver() {

@@ -1,7 +1,7 @@
-package com.example.demointerview.widget.cardstackview.internal
+package com.example.demointerview.widgets.cardstackview.internal
 
 import androidx.recyclerview.widget.RecyclerView
-import com.example.demointerview.widget.cardstackview.Direction
+import com.example.demointerview.widgets.cardstackview.Direction
 import kotlin.math.abs
 import kotlin.math.min
 

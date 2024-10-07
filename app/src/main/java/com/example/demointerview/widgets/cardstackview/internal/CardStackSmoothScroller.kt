@@ -1,11 +1,11 @@
-package com.example.demointerview.widget.cardstackview.internal
+package com.example.demointerview.widgets.cardstackview.internal
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.SmoothScroller
-import com.example.demointerview.widget.cardstackview.CardStackLayoutManager
-import com.example.demointerview.widget.cardstackview.Direction
-import com.example.demointerview.widget.cardstackview.RewindAnimationSetting
+import com.example.demointerview.widgets.cardstackview.CardStackLayoutManager
+import com.example.demointerview.widgets.cardstackview.Direction
+import com.example.demointerview.widgets.cardstackview.RewindAnimationSetting
 
 class CardStackSmoothScroller(
     private val type: ScrollType,

@@ -1,11 +1,11 @@
-package com.example.demointerview.widget.cardstackview.internal
+package com.example.demointerview.widgets.cardstackview.internal
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SnapHelper
-import com.example.demointerview.widget.cardstackview.CardStackLayoutManager
-import com.example.demointerview.widget.cardstackview.Duration
-import com.example.demointerview.widget.cardstackview.SwipeAnimationSetting
+import com.example.demointerview.widgets.cardstackview.CardStackLayoutManager
+import com.example.demointerview.widgets.cardstackview.Duration
+import com.example.demointerview.widgets.cardstackview.SwipeAnimationSetting
 import kotlin.math.abs
 
 class CardStackSnapHelper : SnapHelper() {

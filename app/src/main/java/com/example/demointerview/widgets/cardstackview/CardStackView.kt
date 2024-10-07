@@ -1,11 +1,11 @@
-package com.example.demointerview.widget.cardstackview
+package com.example.demointerview.widgets.cardstackview
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.MotionEvent
 import androidx.recyclerview.widget.RecyclerView
-import com.example.demointerview.widget.cardstackview.internal.CardStackDataObserver
-import com.example.demointerview.widget.cardstackview.internal.CardStackSnapHelper
+import com.example.demointerview.widgets.cardstackview.internal.CardStackDataObserver
+import com.example.demointerview.widgets.cardstackview.internal.CardStackSnapHelper
 
 class CardStackView @JvmOverloads constructor(
     context: Context?,

@@ -1,8 +1,8 @@
-package com.example.demointerview.widget.cardstackview
+package com.example.demointerview.widgets.cardstackview
 
 import android.view.animation.AccelerateInterpolator
 import android.view.animation.Interpolator
-import com.example.demointerview.widget.cardstackview.internal.AnimationSetting
+import com.example.demointerview.widgets.cardstackview.internal.AnimationSetting
 
 class SwipeAnimationSetting private constructor(
     override val direction: Direction,

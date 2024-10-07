@@ -17,14 +17,14 @@ import com.example.demointerview.databinding.FragmentHomeBinding
 import com.example.demointerview.ext.viewBinding
 import com.example.demointerview.helper.SpotDiffCallback
 import com.example.demointerview.viewmodels.HomeViewModel
-import com.example.demointerview.widget.cardstackview.CardStackLayoutManager
-import com.example.demointerview.widget.cardstackview.CardStackListener
-import com.example.demointerview.widget.cardstackview.Direction
-import com.example.demointerview.widget.cardstackview.Duration
-import com.example.demointerview.widget.cardstackview.RewindAnimationSetting
-import com.example.demointerview.widget.cardstackview.StackFrom
-import com.example.demointerview.widget.cardstackview.SwipeAnimationSetting
-import com.example.demointerview.widget.cardstackview.SwipeableMethod
+import com.example.demointerview.widgets.cardstackview.CardStackLayoutManager
+import com.example.demointerview.widgets.cardstackview.CardStackListener
+import com.example.demointerview.widgets.cardstackview.Direction
+import com.example.demointerview.widgets.cardstackview.Duration
+import com.example.demointerview.widgets.cardstackview.RewindAnimationSetting
+import com.example.demointerview.widgets.cardstackview.StackFrom
+import com.example.demointerview.widgets.cardstackview.SwipeAnimationSetting
+import com.example.demointerview.widgets.cardstackview.SwipeableMethod
 
 
 class HomeFragment : Fragment(R.layout.fragment_home), CardStackListener {

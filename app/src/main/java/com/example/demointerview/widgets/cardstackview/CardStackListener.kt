@@ -1,4 +1,4 @@
-package com.example.demointerview.widget.cardstackview
+package com.example.demointerview.widgets.cardstackview
 
 import android.view.View
 

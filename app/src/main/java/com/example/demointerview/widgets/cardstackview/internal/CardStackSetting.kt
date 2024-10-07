@@ -1,12 +1,12 @@
-package com.example.demointerview.widget.cardstackview.internal
+package com.example.demointerview.widgets.cardstackview.internal
 
 import android.view.animation.Interpolator
 import android.view.animation.LinearInterpolator
-import com.example.demointerview.widget.cardstackview.Direction
-import com.example.demointerview.widget.cardstackview.RewindAnimationSetting
-import com.example.demointerview.widget.cardstackview.StackFrom
-import com.example.demointerview.widget.cardstackview.SwipeAnimationSetting
-import com.example.demointerview.widget.cardstackview.SwipeableMethod
+import com.example.demointerview.widgets.cardstackview.Direction
+import com.example.demointerview.widgets.cardstackview.RewindAnimationSetting
+import com.example.demointerview.widgets.cardstackview.StackFrom
+import com.example.demointerview.widgets.cardstackview.SwipeAnimationSetting
+import com.example.demointerview.widgets.cardstackview.SwipeableMethod
 
 class CardStackSetting {
     var stackFrom: StackFrom = StackFrom.None
