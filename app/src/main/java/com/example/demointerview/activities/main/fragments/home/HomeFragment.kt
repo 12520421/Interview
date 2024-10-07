@@ -46,35 +46,35 @@ class HomeFragment : Fragment(R.layout.fragment_home), CardStackListener {
         initialize()
     }
 
-    private fun setupButton() {
-        binding.skipButton.setOnClickListener {
+    private fun setupButton() = with(binding) {
+        skipButton.setOnClickListener {
             val setting = SwipeAnimationSetting.Builder()
                 .setDirection(Direction.Left)
                 .setDuration(Duration.Normal.duration)
                 .setInterpolator(AccelerateInterpolator())
                 .build()
             manager.setSwipeAnimationSetting(setting)
-            binding.cardStackView.swipe()
+            cardStackView.swipe()
         }
 
-        binding.rewindButton.setOnClickListener {
+        rewindButton.setOnClickListener {
             val setting = RewindAnimationSetting.Builder()
                 .setDirection(Direction.Bottom)
                 .setDuration(Duration.Normal.duration)
                 .setInterpolator(DecelerateInterpolator())
                 .build()
             manager.setRewindAnimationSetting(setting)
-            binding.cardStackView.rewind()
+            cardStackView.rewind()
         }
 
-        binding.likeButton.setOnClickListener {
+        likeButton.setOnClickListener {
             val setting = SwipeAnimationSetting.Builder()
                 .setDirection(Direction.Right)
                 .setDuration(Duration.Normal.duration)
                 .setInterpolator(AccelerateInterpolator())
                 .build()
             manager.setSwipeAnimationSetting(setting)
-            binding.cardStackView.swipe()
+            cardStackView.swipe()
         }
     }
 
